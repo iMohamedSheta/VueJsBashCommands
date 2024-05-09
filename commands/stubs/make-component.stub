@@ -1,0 +1,21 @@
+<script setup>
+defineProps({
+  /**
+  msg: {
+    type: String,
+    required: true
+  }
+  **/
+})
+</script>
+
+<template>
+  <div class="{{name}}">
+    <h1>{{name}} component</h1>
+    <!-- Your component content here -->
+  </div>
+</template>
+
+<style scoped>
+/* Your scoped styles here */
+</style>

@@ -1,0 +1,17 @@
+<template>
+  <div>
+    <h1>{{name}} View</h1>
+    <!-- Your view content here -->
+  </div>
+</template>
+
+<script>
+export default {
+  name: '{{name}}'
+  // Your script logic here
+}
+</script>
+
+<style scoped>
+/* Your scoped styles here */
+</style>

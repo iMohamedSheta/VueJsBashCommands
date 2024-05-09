@@ -1,0 +1,14 @@
+#!/bin/bash
+
+RED='\e[31m'
+GREEN='\e[32m'
+YELLOW='\e[33m'
+RESET='\e[0m'
+
+# Extract the component name from the command-line argument
+first_parameter=$1
+
+if [ -z "$first_parameter" ]; then
+  echo -e "${RED}ERROR: <First_Parameter> is required!${RESET}"
+  exit 1
+fi
